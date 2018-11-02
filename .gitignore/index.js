@@ -3,7 +3,7 @@ const Discord = require("discord.js");
 var bot = new Discord.Client();
 
 bot.on("ready", function() {
-    bot.user.setGame("Fondateur Ecorp, !help");
+    bot.user.setGame("E-CORP Raid, !help");
     console.log("Le bot à bien été connecté");
 });
 
